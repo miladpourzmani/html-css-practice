@@ -1,0 +1,84 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+.header{
+    width: 100%;
+    flex-wrap: wrap;
+    height: auto;
+    background-color: rgb(134, 129, 129);
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    align-items: center;
+    padding: 0 30px;
+    gap: 30px;
+}
+
+.header h2{
+
+    font-size: 24px;
+}
+
+.header input{
+    width: 500px;
+    height: 45px;
+    border: none;
+    border-radius: 8px;
+    background-color: #f2f2f4;
+    padding: 0 20px;
+    outline: none;
+   
+}
+
+.header a{
+    font-size: 16px;
+    padding: 10px 15px;
+
+}
+.header .logo{
+    font-size: 28px;
+    font-weight: bold;
+}
+.header .actions{
+    display: flex;
+    align-items: center;
+    gap: 15px;
+}
+.header .actions a{
+    text-decoration: none;
+    color: #333;
+    font-size: 15px;
+
+}
+
+.header .actions button{
+    padding: 10px;
+    border: 1px solid #ddd;
+    background: white;
+    border-radius: 8px;
+    cursor: pointer;
+}
+.header .nav{
+    flex:100%;
+    width: 100%;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 40px;
+    padding: 15px 60px;
+    border-top: 1px solid #eee;
+    
+
+}
+.header .nav a{
+    text-decoration: none;
+    color: #333;
+    font-size: 16px;
+    padding: 8px 0 ;
+    white-space: nowrap;
+}
+
