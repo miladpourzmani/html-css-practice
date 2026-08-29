@@ -1,0 +1,98 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+
+    background: linear-gradient(135deg,#000000,#030b18 ,#001f3f);
+    font-family: sans-serif;
+    height: 100vh;
+}
+
+
+a{
+  text-decoration: none;
+}
+
+
+
+input, select, textarea, button {
+    font-family: sans-serif;
+    font-size: 16px;
+}
+
+
+
+
+/*     start fotm style     */
+#font-zarf{
+   background-color: rgb(173, 171, 171);
+    width: 500px;
+    margin: 40px auto;
+    border-radius: 20px;
+    border: 1px solid rgb(100, 98, 98);
+    padding: 20px 28px;
+    box-shadow: 8px 12px 80px #3f3e3e;
+}
+#font-zarf .h2 {
+    text-align: center;
+    margin-bottom: 24px;
+    
+}
+#font-zarf label {
+    display: block;
+    margin-bottom: 6px;
+}
+
+/*     input-style     */
+
+#font-zarf .input-box{
+   width: 100%;
+   padding: 10px ;
+   border-radius: 8px;
+   border: 1px solid #d1d5db;
+   margin-bottom: 16px;
+   
+}
+
+
+#font-zarf .textarea-box{
+resize: none;
+
+}
+#font-zarf .input-box:focus{
+    border-color: #5e5656;
+}
+  /* cheng placeholder color */
+  #font-zarf .input-box::placeholder{
+    color: #a2a2a2;
+  }
+      /*    radio     */
+  #font-zarf .option{
+    display: flex;
+    gap: 16px;
+    flex-wrap: wrap;
+    margin-bottom: 16px;
+  }
+  #font-zarf .option label{
+    color: #465563;
+  }
+
+     /*    botton    */
+  #font-zarf .submit{
+
+background-color: #323333;
+color: white;
+width: 100%;
+padding: 15px;
+border-radius: 8px;
+border: none;
+font-weight: bold;
+cursor: pointer;
+transition: all 0.3s;
+  }
+  #font-zarf .submit:hover{
+    background-color:rgb(139, 135, 135);
+    transform: scale(1.05);
+  }

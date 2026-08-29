@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>fotm practic</title>
+
+    <link rel="stylesheet" href="./style.css">
+
+    
+</head>
+<!-- form -->
+<body>
+    <div id="font-zarf">
+        <h2 class="h2">login</h2>
+        <form>
+            <label for="fullname">fullname</label>
+            <input type="text" name="fullname" id="fullname" class="input-box " placeholder="e.g. milad pourzamani">
+
+            <label for="email">email adderss</label>
+            <input type="email" name="email" id="email" class="input-box " placeholder="you@example.com">
+
+            <label for="password">password</label>
+            <input type="password" name="password" id="password" class="input-box " placeholder="choose a strong password">
+
+            <label for="bio">short bio</label>
+            <textarea name="bio" id="bio" class="input-box textarea-box " placeholder="tel us bit about yourself" rows="3"></textarea>
+
+            
+            <label for="country">country</label>
+            <select name="country" id="country" class="input-box">
+                <option value="" disabled selected >select your country</option>
+                <option value="iran">iran</option>
+                <option value="afghanstan">afghanstan</option>
+                <option value="brazil">brazil</option>
+                <option value="germany">germany</option>
+            </select>
+            
+            <label>gender</label>
+            <div class="option">
+                <label> <input type="radio" name="gender" value="male">male</label>
+                <label> <input type="radio" name="gender" value="female">female</label>
+                <label> <input type="radio" name="gender" value="other">other</label>
+            </div>
+
+
+            <a href="" class="submit"> Register</a>
+        </form>
+    </div>
+</body>
+</html>

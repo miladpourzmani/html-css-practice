@@ -1,84 +1,80 @@
-*{
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
+body{
+    font-family: cursive;
+    background: linear-gradient(135deg,#f1f5f9, #dbeafe, #cbd5e1);
 }
 
+/* statr header */
 
-.header{
-    width: 100%;
-    flex-wrap: wrap;
-    height: auto;
-    background-color: rgb(134, 129, 129);
-    display: flex;
-    align-items: center;
-    justify-content: flex-start;
-    align-items: center;
-    padding: 0 30px;
-    gap: 30px;
+
+
+
+ul{
+    list-style-type: none;
 }
 
-.header h2{
-
-    font-size: 24px;
-}
-
-.header input{
-    width: 500px;
-    height: 45px;
-    border: none;
-    border-radius: 8px;
-    background-color: #f2f2f4;
-    padding: 0 20px;
-    outline: none;
-   
-}
-
-.header a{
-    font-size: 16px;
-    padding: 10px 15px;
-
-}
-.header .logo{
-    font-size: 28px;
-    font-weight: bold;
-}
-.header .actions{
-    display: flex;
-    align-items: center;
-    gap: 15px;
-}
-.header .actions a{
+a{
     text-decoration: none;
-    color: #333;
-    font-size: 15px;
-
-}
-
-.header .actions button{
-    padding: 10px;
-    border: 1px solid #ddd;
-    background: white;
-    border-radius: 8px;
-    cursor: pointer;
-}
-.header .nav{
-    flex:100%;
-    width: 100%;
-    display: flex;
-    justify-content: flex-start;
-    align-items: center;
-    gap: 40px;
-    padding: 15px 60px;
-    border-top: 1px solid #eee;
     
-
-}
-.header .nav a{
-    text-decoration: none;
-    color: #333;
-    font-size: 16px;
-    padding: 8px 0 ;
-    white-space: nowrap;
 }
 
+
+.maine-header{       
+    width: 90%;
+    display: flex;
+    text-align: center;
+    align-items: center;
+    justify-content: space-around;
+    padding: 16px;
+    margin: 20px auto;
+    color: white;
+    background: linear-gradient(135deg,#334155, #475569);
+    border-radius: 30px;
+    border: 1px solid #807d7d;
+    
+}
+
+.maine-header .nav-list{
+    display: flex;
+    padding: 10px;
+   align-items: center;
+   font-size: 20px;
+   gap: 30px;
+    transition: all 0.3s;
+
+}
+
+.maine-header .nav-login{
+    font-size: large; 
+    padding:10px;
+    border: 2px solid rgb(136, 120, 120);
+    color: white;
+    background-color: rgb(59, 58, 58);
+    border-radius: 10px;
+    transition: all 0.3s;
+    width: 100px;
+}
+
+
+
+.maine-header .header-nav-list{
+color: #ffffff;
+padding: 13px;
+transition: all 0.4s;
+}
+/* start hover header */
+.maine-header .header-nav-list:hover {
+    background-color: #616060;
+    color: white;
+    border-radius: 13px;
+}
+
+.maine-header .nav-login:hover{
+    transform: translateY(-5px);
+    background-color: rgb(88, 87, 87);
+}
+   
+
+
+   
+  
+   
